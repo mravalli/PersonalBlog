@@ -2,7 +2,7 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 17:50:41
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-02-19 18:04:58
+* @Last Modified time: 2021-02-19 19:52:23
 */
 import Head from 'next/head'
 import Date from '../../components/date'

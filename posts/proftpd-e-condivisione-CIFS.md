@@ -4,7 +4,7 @@ short: 'Proftpd e CIFS'
 date: '2020-01-16'
 image: '/images/hard-disk.jpg'
 description: "Creazione directory tramite ftp su una condivisione Windows e permesso negato" 
-tags: ['Linux', 'proftpd', 'samba', 'cifs', 'condivisione', 'permission denied', 'chmod']
+tags: ['Linux', 'ProFTPd', 'Samba', 'Cifs', 'Condivisione', 'Permission Denied', 'chmod']
 ---
 Succede che ho acquistato uno spazio slegato dal server su cui si può accedere in tre modi: sftp, webdav e cifs.
 Insomma, c'è tutto quello che serve tranne l'FTP

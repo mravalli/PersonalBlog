@@ -3,7 +3,7 @@ title: 'Come formattare le date in Vue.js'
 short: 'Vue: formattare le date'
 date: '2020-11-04'
 image: '/images/Time-and-Date.png'
-tags: ['vue', 'date', 'i18n', 'localization']
+tags: ['Vue', 'Date', 'iI8n', 'Localization']
 ---
 
 È da un po di tempo che sto cercando di rimpiazzare tutto il codice che prima scrivevo con jQuery in Vue, piuttosto che iniziare i nuovi progetti direttamente con Vue come unico frontend.

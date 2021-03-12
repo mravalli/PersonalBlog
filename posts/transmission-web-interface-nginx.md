@@ -2,7 +2,7 @@
 title: 'Transmission Web Interface & Nginx'
 short: 'Transmission Web Interface & Nginx'
 date: '2012-02-13'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Configurazione', 'Linux', 'nginx', 'torrent', 'transmission']
 ---
 

@@ -2,7 +2,7 @@
 title: 'Proftpd e condivisione CIFS'
 short: 'Proftpd e CIFS'
 date: '2020-01-16'
-image: '/images/hard-disk.jpg'
+image: '/images/hard-disk.webp'
 description: "Creazione directory tramite ftp su una condivisione Windows e permesso negato" 
 tags: ['Linux', 'ProFTPd', 'Samba', 'Cifs', 'Condivisione', 'Permission Denied', 'chmod']
 ---

@@ -2,7 +2,7 @@
 title: "3, UMTS e la scelta dell'offerta giusta"
 short: "3, UMTS e la scelta dell'offerta giusta"
 date: '2009-07-28'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['100MB', 'H3G', 'Tre', 'Connessione', 'HDSPA', 'Fuffa', 'Mobilità', 'Modem', 'Naviga3', 'Soglie', 'Truffa', 'UMTS']
 ---
 

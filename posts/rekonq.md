@@ -2,7 +2,7 @@
 title: 'Rekonq - Finalmente!!'
 short: 'Rekonq - Finalmente!!'
 date: '2010-05-28'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Browser', 'Fast', 'Linux', 'Rekonq', 'Slackware', 'WebKit']
 ---
 

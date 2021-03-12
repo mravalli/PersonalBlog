@@ -2,7 +2,7 @@
 title: 'Sasc-ng'
 short: 'Sasc-ng'
 date: '2009-11-27'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Linux']
 ---
 

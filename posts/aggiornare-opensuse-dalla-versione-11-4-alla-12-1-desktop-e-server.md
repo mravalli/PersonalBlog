@@ -2,7 +2,7 @@
 title: 'Aggiornare OpenSUSE dalla versione 11.4 alla 12.1 (Desktop e Server)'
 short: 'Aggiornare OpenSUSE dalla versione 11.4 alla 12.1 (Desktop e Server)'
 date: '2012-01-30'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Repositories', 'Aggiornamento', 'Distribuzione', 'Asparagus', 'Celadon', 'Linux', 'OpenSuSE', 'update', 'upgrade', 'zypper']
 ---
 

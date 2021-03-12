@@ -2,7 +2,7 @@
 title: 'vdr init script'
 short: 'vdr init script'
 date: '2010-07-10'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Linux', 'VDR', 'init', 'inttab', 'daemontools']
 ---
 

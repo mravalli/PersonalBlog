@@ -2,7 +2,7 @@
 title: 'Come formattare le date in Vue.js'
 short: 'Vue: formattare le date'
 date: '2020-11-04'
-image: '/images/Time-and-Date.png'
+image: '/images/Time-and-Date.webp'
 tags: ['Vue', 'Date', 'iI8n', 'Localization']
 ---
 

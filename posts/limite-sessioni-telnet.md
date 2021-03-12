@@ -2,7 +2,7 @@
 title: 'Limite delle Sessioni Telnet'
 short: 'Limite Sessioni Telnet'
 date: '2008-12-11'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Linux', 'xinetd', 'telnetd', 'sessions']
 ---
 

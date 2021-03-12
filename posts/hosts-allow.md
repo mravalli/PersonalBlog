@@ -2,7 +2,7 @@
 title: 'Hosts.Allow'
 short: 'Hosts.Allow'
 date: '2009-04-19'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Linux', 'Archlinux', 'hosts', 'sshd', 'httpd', 'Fuffa']
 ---
 

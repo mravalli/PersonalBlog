@@ -2,7 +2,7 @@
 title: 'EncFS, Gnome e richiesta password'
 short: 'EncFS, Gnome e richiesta password'
 date: '2008-09-25'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Linux']
 ---
 

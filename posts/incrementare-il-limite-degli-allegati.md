@@ -2,7 +2,7 @@
 title: 'Incrementare il limite degli allegati'
 short: 'Incrementare il limite degli allegati'
 date: '2008-06-24'
-image: '/images/libri.jpg'
+image: '/images/libri.webp'
 tags: ['Allegati', 'Attachment', 'Max File Size', 'Zimbra', 'XServer']
 ---
 

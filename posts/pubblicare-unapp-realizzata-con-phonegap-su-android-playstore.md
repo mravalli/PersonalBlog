@@ -1,6 +1,6 @@
 ---
-title: 'Pubblicare un'app realizzata con PhoneGap su Android PlayStore'
-short: 'Pubblicare un'app realizzata con PhoneGap su Android PlayStore'
+title: "Pubblicare un'app realizzata con PhoneGap su Android PlayStore"
+short: "Pubblicare un'app realizzata con PhoneGap su Android PlayStore"
 date: '2017-07-31'
 image: '/images/libri.webp'
 tags: ['Android', 'Cordova', 'Google Play Store', 'PhoneGap']

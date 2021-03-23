@@ -2,13 +2,13 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 12:44:17
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-03-23 22:18:43
+* @Last Modified time: 2021-03-23 22:26:45
 */
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { faTwitter, faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faHome } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const name = 'Mario Ravalli'
@@ -27,8 +27,12 @@ export default function Layout({children, home}) {
 			<nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
 				<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
 					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-						<a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white text-3xl"
-							href="https://mario.raval.li/">{name}</a>
+						<Link href="/">
+							<a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white text-3xl">
+								<FontAwesomeIcon icon={faHome} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
+								<span className="lg:hidden inline-block ml-2">Home</span>
+							</a>
+						</Link>
 						<button className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 							type="button"
 							onclick="toggleNavbar('example-collapse-navbar')">

@@ -30,9 +30,9 @@ Questa sembra essere la soluzione migliore quindi: abbiamo la data e possiamo fo
 
 ## Un Semplice Filtro per Vue
 
-Eccone uno: https://github.com/vuejs-community/vue-filter-date-format
+Eccone uno: [vue-filter-date-format](https://github.com/vuejs-community/vue-filter-date-format)
 
-Questo filtro prende la data e la restituisce nel formato che ci interessa. L'importante è che la data sia un oggetto di tipo *Date*. Se così non fosse, lo stesso autore ha pensato di creare un altro filtro che ne fa l'interpretazione e la conversione: https://github.com/vuejs-community/vue-filter-date-parse
+Questo filtro prende la data e la restituisce nel formato che ci interessa. L'importante è che la data sia un oggetto di tipo *Date*. Se così non fosse, lo stesso autore ha pensato di creare un altro filtro che ne fa l'interpretazione e la conversione: [vue-filter-date-parse](https://github.com/vuejs-community/vue-filter-date-parse)
 
 > {{ '2020-11-04' | dateParse('YYYY-MM-DD') | dateFormat('MMMM D, YYYY') }}
 

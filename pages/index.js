@@ -38,7 +38,7 @@ export default function Home({ lastPost }) {
                   </div>
                 </div>
                 <div className="w-full lg:w-6/12 px-4 lg:order-1 flex justify-center">
-                  <div className="relative">
+                  <div className="hidden xl:block relative">
                     <img alt="Mario Ravalli" src="/images/me.webp" style={{maxWidth: 150 + 'px'}}
                       className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-20 -ml-20 lg:-ml-16" />
                   </div>

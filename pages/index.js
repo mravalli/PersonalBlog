@@ -58,9 +58,8 @@ export default function Home({ lastPost }) {
                     </div>
                   </div>
                 </div>
+              
               </div>
-              
-              
             </div>
           </div>
         </div>

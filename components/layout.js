@@ -2,19 +2,26 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 12:44:17
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-03-23 22:26:45
+* @Last Modified time: 2021-03-26 00:10:08
 */
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 import { faTwitter, faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faBook, faHome } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const name = 'Mario Ravalli'
 export const siteTitle = 'Miniminaglie qua e là'
 
 export default function Layout({children, home}) {
+	const [active, setActive] = useState(false);
+
+	const toggleNavbar = () => {
+		setActive(!active);
+	}
+
 	return (
 		<>
 			<Head>
@@ -25,28 +32,28 @@ export default function Layout({children, home}) {
 				<meta name="twitter:card" content="Le Miniminaglie ci sono anche su twitter!!" />
 			</Head>
 			<nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
-				<div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-					<div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+				<div className="container mx-auto flex flex-wrap items-center justify-between">
+					<div className="w-full relative px-4 flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
 						<Link href="/">
 							<a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white text-3xl">
-								<FontAwesomeIcon icon={faHome} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
-								<span className="lg:hidden inline-block ml-2">Home</span>
+								<Image src="/logo.webp" alt="Raval.li" width={48} height={48} />
 							</a>
 						</Link>
 						<button className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 							type="button"
-							onclick="toggleNavbar('example-collapse-navbar')">
-							<FontAwesomeIcon icon={faBars} className="text-white h-4 w-4" />
+							onClick={toggleNavbar}>
+							<FontAwesomeIcon icon={faBars} className="text-pink-900 h-11 w-11" />
 						</button>
 					</div>
-					<div className="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
-						id="example-collapse-navbar">
+					<div className={`${active ? '' : 'hidden'} shadow lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none`}
+						id="collapse-navbar">
 						<ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
 							
 							<li className="flex items-center">
 								<a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
 									href="/posts">
-									<span className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-6 w-12">Posts</span>
+									<FontAwesomeIcon icon={faBook} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-4 w-4" />
+									<span className="lg:hidden inline-block ml-2">Posts</span>
 								</a>
 							</li>
 							<li className="flex items-center">

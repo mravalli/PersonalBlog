@@ -2,7 +2,7 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 17:50:41
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-03-23 22:04:34
+* @Last Modified time: 2021-03-26 00:53:41
 */
 import Head from 'next/head'
 import Date from '../../components/date'
@@ -40,7 +40,7 @@ export default function Post({ postData }) {
                 <article>
                   <h1>{postData.title}</h1>
                   <div className="-mt-16 mb-16"><Date dateString={postData.date} /></div>
-                  <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                  <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 </article>
               </div>
             </div>

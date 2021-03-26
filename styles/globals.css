@@ -4,13 +4,13 @@
 
 @layer base {
 	h1 {
-		@apply text-4xl font-extrabold mb-6 mt-4;
+		@apply text-xl md:text-4xl font-extrabold mb-6 mt-4;
 	}
 	h2 {
-		@apply text-2xl font-bold mb-3 mt-4;
+		@apply text-base md:text-2xl font-bold mb-3 mt-4;
 	}
-	blockquote {
-		@apply font-mono bg-gray-300 pt-2 pb-2 pl-2 pr-2 mt-1 mb-1;
+	pre, code {
+		@apply text-sm bg-gray-300 pt-2 pb-2 pl-2 pr-2 mt-1 mb-1;
 	}
 	a {
 		@apply font-semibold text-purple-800;

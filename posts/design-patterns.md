@@ -1,5 +1,5 @@
 ---
-title: 'Che cos\'è un Design Pattern'
+title: 'Che cosa è un Design Pattern'
 short: 'Design Patterns'
 date: '2021-05-04'
 image: '/images/libri.webp'

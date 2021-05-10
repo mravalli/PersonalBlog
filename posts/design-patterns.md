@@ -2,6 +2,7 @@
 title: 'Che cosa è un Design Pattern'
 short: 'Design Patterns'
 date: '2021-05-04'
+next: 'cenni-storici'
 image: '/images/libri.webp'
 tags: ['Design Pattern', 'General Concept', 'Developing', 'Motivation', 'Structure', 'Software Design']
 ---
@@ -16,7 +17,7 @@ I patterns sono spesso confusi con gli algoritmi, dato che ambedue i concetti de
 
 Un analogia con un algoritmo la potremmo vedere in una ricetta da cucina: entrambi hanno degli step chiari per raggiungere l'obiettivo. Il pattern invece è più uno schema concettuale: possiamo vedere il risultato e le feature di cui sarà dotato, ma non l'esatto ordine di implementazione.
 
-##In cosa consiste un pattern?##
+##In cosa consiste un pattern?
 Molti pattern sono descritti in maniera così formale che possiamo riprodurli in molti contesti.
 Generalmente, nella presentazione di un pattern, abbiamo questi punti:
 - **Intent**, ovvero una breve introduzione nella quale si descrive sia il problema che la soluzione che si vanno ad affrontare;

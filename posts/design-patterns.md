@@ -7,7 +7,7 @@ image: '/images/libri.webp'
 tags: ['Design Pattern', 'General Concept', 'Developing', 'Motivation', 'Structure', 'Software Design']
 ---
 
-**Disclaimer** *Lungi da me voler insegnare cosa sia un Desgin Pattern e come sceglierlo. Ci sono voci ben più autorevoli della mia. Quello che andrete a leggere è più un riassunto di quanto io ne abbia compreso, prendendo a pien mani da varie risorse disponibili online*
+***Disclaimer** Lungi da me voler insegnare cosa sia un Desgin Pattern e come sceglierlo. Ci sono voci ben più autorevoli della mia. Quello che andrete a leggere è più un riassunto di quanto io ne abbia compreso, prendendo a pien mani da varie risorse disponibili online*
 
 I **Design Patterns** sono soluzioni tipiche a problemi comuni che si presentano nella progettazioni del software.
 Sono da immaginare come dei progetti precompilati, personalizzabili, che ci aiutano a risolvere problemi ciclici che si presentano (o si presenteranno) nella stesura del nostro codice.

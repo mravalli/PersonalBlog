@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { faBriefcase, faMapMarker, faUniversity } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faMapMarker, faMusic } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Date from '../components/date'
 import Layout, { siteTitle } from '../components/layout'
@@ -46,15 +46,15 @@ export default function Home({ lastPost }) {
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mt-12"> Mario Ravalli </h3>
                     <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
                       <FontAwesomeIcon icon={faMapMarker} className="inline mr-2 text-lg text-gray-500 h-4 w-4"/>
-                      Ragusa, Italia
+                      Ragusa, Italy
                     </div>
                     <div className="mb-2 text-gray-700 mt-10">
                       <FontAwesomeIcon icon={faBriefcase} className="inline mr-2 text-lg text-gray-500 h-4 w-4" />
-                      Full Stack Developer - Poor Trumpet Player
+                      Full Stack Developer
                     </div>
                     <div className="mb-2 text-gray-700">
-                      <FontAwesomeIcon icon={faUniversity} className="inline mr-2 text-lg text-gray-500 h-4 w-4" />
-                      University of Computer Science
+                      <FontAwesomeIcon icon={faMusic} className="inline mr-2 text-lg text-gray-500 h-4 w-4" />
+                      Poor Flugelhorn Player
                     </div>
                   </div>
                 </div>

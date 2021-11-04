@@ -2,15 +2,16 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 12:44:17
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-03-26 00:10:08
+* @Last Modified time: 2021-09-22 18:57:08
 */
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+
 import { useEffect, useState } from 'react'
 import prism from 'prismjs'
-import { faTwitter, faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faBook, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookSquare, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faBook, faHome, faIdBadge } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const name = 'Mario Ravalli'
@@ -59,6 +60,20 @@ export default function Layout({children, home}) {
 									href="/posts">
 									<FontAwesomeIcon icon={faBook} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-4 w-4" />
 									<span className="lg:hidden inline-block ml-2">Posts</span>
+								</a>
+							</li>
+							{/*<li className="flex items-center">
+								<a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+									href="/who-i-am">
+									<FontAwesomeIcon icon={faIdBadge} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-4 w-4" />
+									<span className="lg:hidden inline-block ml-2">Chi sono</span>
+								</a>
+							</li>*/}
+							<li className="flex items-center">
+								<a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+									target="_blank" href="https://www.linkedin.com/in/marioravalli/">
+									<FontAwesomeIcon icon={faLinkedin} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-4 w-4" />
+									<span className="lg:hidden inline-block ml-2">Linkedin</span>
 								</a>
 							</li>
 							<li className="flex items-center">

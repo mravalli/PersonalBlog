@@ -29,7 +29,7 @@ export default function Home({ lastPost }) {
             <div className="px-6 pb-12">
               <div className="flex flex-wrap justify-center">
                 
-                <div className="w-full lg:w-6/12 px-4 lg:order-2 lg:self-center">
+                <div className="w-full lg:w-8/12 px-4 lg:order-2 lg:self-center">
                   <div className="py-6 px-3 mt-32 sm:mt-0">
                     <article>
                       <h1 className="">{lastPost.title}</h1>
@@ -37,7 +37,7 @@ export default function Home({ lastPost }) {
                     </article>
                   </div>
                 </div>
-                <div className="w-full lg:w-6/12 px-4 lg:order-1 flex justify-center">
+                <div className="w-full lg:w-4/12 px-4 lg:order-1 flex justify-center">
                   <div className="hidden xl:block relative">
                     <img alt="Mario Ravalli" src="/images/me.webp" style={{maxWidth: 150 + 'px'}}
                       className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-20 -ml-20 lg:-ml-16" />

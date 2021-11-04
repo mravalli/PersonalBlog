@@ -7,7 +7,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import prism from 'prismjs'
 import { faTwitter, faFacebookSquare, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBars, faBook, faHome } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -17,6 +18,10 @@ export const siteTitle = 'Miniminaglie qua e là'
 
 export default function Layout({children, home}) {
 	const [active, setActive] = useState(false);
+
+  useEffect(() => {
+    prism.highlightAll();
+  }, []);
 
 	const toggleNavbar = () => {
 		setActive(!active);

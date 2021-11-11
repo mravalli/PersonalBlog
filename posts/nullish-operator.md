@@ -21,7 +21,7 @@ my_nullish_var ??= 'Assigned Value';
 console.log(my_nullish_var); // OUTPUT: 'Assigned Value'
 ```
 
-Above code snippet is equivalent to
+Il codice qui sopra equivale a
 
 ```js
 let my_nullish_var;
@@ -42,7 +42,7 @@ my_falsy_var ||= 'Assigned Value'
 console.log(my_falsy_var) // OUTPUT: 'Assigned Value'
 ```
 
-Above code snippet is equivalent to
+Il codice qui sopra equivale a
 
 ```js
 let my_falsy_var;

@@ -77,7 +77,7 @@ export default function Home({ lastPost }) {
                       E sono alla ricerca di un progetto open source basatao su Kotlin su cui poter collaborare, così da apprenderne di più.
                     </p>
                     <p className="mt-4 text-justify">
-                      Troppe cose? No, io no direi ;-)
+                      Troppe cose? No, io non direi ;-)
                     </p>
                   </div>
                 </div>

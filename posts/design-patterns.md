@@ -1,9 +1,10 @@
 ---
 title: 'Che cosa è un Design Pattern'
 short: 'Design Patterns'
+abstract: 'Cosa sono i design pattern e perché non sono certamente degli algoritmi'
 date: '2021-05-04'
 next: 'design-pattern-history'
-image: '/images/libri.webp'
+image: '/images/scrum-roles.webp'
 tags: ['Design Pattern', 'General Concept', 'Developing', 'Motivation', 'Structure', 'Software Design']
 ---
 

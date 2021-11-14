@@ -2,6 +2,7 @@
 title: 'Nullish|OR Javascript Operator'
 short: 'Nullish|OR Operator'
 date: '2021-11-03'
+abstract: 'Assegnare un valore condizionalmente, con gli operatori logici Nullish & OR'
 image: '/images/libri.webp'
 tags: ['Javascript', 'LogicalOperator', 'Tip', 'Developing', 'Typescript', 'ES6']
 ---

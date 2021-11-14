@@ -40,7 +40,7 @@ export default function Home({ lastPost }) {
                 <div className="w-full lg:w-4/12 px-4 lg:order-1 flex justify-center">
                   <div className="hidden xl:block relative">
                     <img alt="Mario Ravalli" src="/images/me.webp" style={{maxWidth: 150 + 'px'}}
-                      className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-20 -ml-20 lg:-ml-16" />
+                      className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-12 -ml-4 lg:ml-36" />
                   </div>
                   <div className="text-center mt-12">
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mt-12"> Mario Ravalli </h3>
@@ -56,6 +56,29 @@ export default function Home({ lastPost }) {
                       <FontAwesomeIcon icon={faMusic} className="inline mr-2 text-lg text-gray-500 h-4 w-4" />
                       Poor Flugelhorn Player
                     </div>
+                    <p className="mt-12 text-justify">
+                      Sono un Full-Stack Developer, anche se preferisco definirmi un semplice sviluppatore.
+                      Amo sviluppare e mi appassionano linguaggi e paradigmi, anche quelli sociali.
+                    </p>
+                    <p className="mt-4 text-justify">
+                      Son sempre stato ossessionato da come funziona tutto ciò che mi circonda, e mi piace sperimentare.
+                      Uso discontinuamente SuSE da 23 anni, solo perché non ho il tempo di compilare
+                      Gnome su <strong>Slackware</strong> o stare dietro agli aggiornamenti di <strong>Gentoo</strong>.
+                      Attualmente su tutti i miei computer gira <strong>Fedora</strong> 35 e non mi dispiace affatto!!
+                    </p>
+                    <p className="mt-4 text-justify">
+                      Attualmente sto lavorando ad alcune nuove funzionalità del software di sorveglianza da me sviluppato,
+                      includendo la transizione da java a kotlin, per poter sfruttare al meglio le coroutines (i workers ed i livedata).
+                    </p>
+                    <p className="mt-4 text-justify">
+                      E quindi, sto studiando Kotlin e il paradigma della programmazione funzionale.
+                    </p>
+                    <p className="mt-4 text-justify">
+                      E sono alla ricerca di un progetto open source basatao su Kotlin su cui poter collaborare, così da apprenderne di più.
+                    </p>
+                    <p className="mt-4 text-justify">
+                      Troppe cose? No, io no direi ;-)
+                    </p>
                   </div>
                 </div>
               

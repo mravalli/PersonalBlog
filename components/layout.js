@@ -2,7 +2,7 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 12:44:17
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-11-14 12:33:37
+* @Last Modified time: 2021-11-14 15:44:29
 */
 import Head from 'next/head'
 import Image from 'next/image'
@@ -65,28 +65,28 @@ export default function Layout({children, home}) {
               <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
                   href="/posts">
-                  <FontAwesomeIcon icon={faBook} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-9 w-9" />
+                  <FontAwesomeIcon icon={faBook} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Posts</span>
                 </a>
               </li>
               <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   target="_blank" href="https://www.linkedin.com/in/marioravalli/">
-                  <FontAwesomeIcon icon={faLinkedin} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-9 w-9" />
+                  <FontAwesomeIcon icon={faLinkedin} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Linkedin</span>
                 </a>
               </li>
               <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   target="_blank" href="https://twitter.com/babau_mr">
-                  <FontAwesomeIcon icon={faTwitter} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-9 w-9" />
+                  <FontAwesomeIcon icon={faTwitter} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
                 </a>
               </li>
               <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   target="_blank" href="https://github.com/mrkrash">
-                  <FontAwesomeIcon icon={faGithub} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-9 w-9" />
+                  <FontAwesomeIcon icon={faGithub} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Star</span>
                 </a>
               </li>

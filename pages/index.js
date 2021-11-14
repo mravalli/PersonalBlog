@@ -40,7 +40,7 @@ export default function Home({ lastPost }) {
                 <div className="w-full lg:w-4/12 px-4 lg:order-1 flex justify-center">
                   <div className="hidden xl:block relative">
                     <img alt="Mario Ravalli" src="/images/me.webp" style={{maxWidth: 150 + 'px'}}
-                      className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-20 -ml-20 lg:-ml-16" />
+                      className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-12 -ml-4 lg:ml-8" />
                   </div>
                   <div className="text-center mt-12">
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mt-12"> Mario Ravalli </h3>

@@ -1,5 +1,5 @@
 import React from "react";
-import fs from 'fs'
+// import fs from 'fs'
 import { getSortedPostsData } from '../lib/posts'
 
 const Sitemap = () => {};

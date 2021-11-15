@@ -2,7 +2,7 @@
 * @Author: Mario Ravalli
 * @Date:   2021-02-19 12:44:17
 * @Last Modified by:   Mario Ravalli
-* @Last Modified time: 2021-11-14 15:44:29
+* @Last Modified time: 2021-11-15 12:27:22
 */
 import Head from 'next/head'
 import Image from 'next/image'
@@ -36,6 +36,7 @@ export default function Layout({children, home}) {
         <meta property="og:image" content="https://mario.raval.li/images/polpo.webp" />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="Le Miniminaglie ci sono anche su twitter!!" />
+        <meta name="google-site-verification" content="3abBceRSMUbdJuFrqF72Z9yILjM6DPciZ3Ef0ksX_SY" />
       </Head>
       <nav className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg">
         <div className="container mx-auto flex flex-wrap items-center justify-between">

@@ -1,4 +1,4 @@
-const { getSortedPostsData } = require('lib/posts');
+const { getSortedPostsData } = require("../lib/posts");
 const algoliasearch = require("algoliasearch/lite");
 
 try {

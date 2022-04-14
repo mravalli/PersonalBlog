@@ -20,12 +20,13 @@ try {
 
 async function getAllBlogPosts() {
     return contentFilePaths.map((filePath) => {
-        const source = fs.readFileSync(path.join(postsDirectory, filePath))
-        const {data} = matter(source)
-        const id = filePath.replace(/\.md$/, '')
+        const source = fs.readFileSync(path.join(postsDirectory, filePath));
+        const {content, data} = matter(source);
+        const id = filePath.replace(/\.md$/, '');
 
         return {
             id,
+            content,
             data,
         }
     })
@@ -34,12 +35,13 @@ async function getAllBlogPosts() {
 function transformPostsToSearchObjects(articles) {
     return articles.map(article => {
         return {
-            objectID: article.title,
-            title: article.title,
-            description: article.abstract,
+            objectID: article.id,
+            title: article.data.title,
+            content: article.content,
+            description: article.data.abstract,
             slug: `/posts/${article.id}`,
-            tagsCollection: {tags: article.tags}, // we can nest objects in Algolia!
-            date: article.publishedAt,
+            tagsCollection: {tags: article.data.tags}, // we can nest objects in Algolia!
+            date: article.data.publishedAt,
             type: 'article'
         };
     });

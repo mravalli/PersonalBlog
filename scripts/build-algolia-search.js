@@ -1,5 +1,9 @@
-const { getSortedPostsData } = require("../lib/posts");
+const fs = require("fs");
+const path = require("path");
+const postsDirectory = path.join(process.cwd(), 'posts')
+const contentFilePaths = fs.readdirSync(postsDirectory).filter((path) => /\.md?$/.test(path));
 const algoliasearch = require("algoliasearch/lite");
+const matter = require("gray-matter");
 
 try {
     if (!process.env.NEXT_PUBLIC_ALGOLIA_APP_ID) {
@@ -12,6 +16,19 @@ try {
 } catch (error) {
     console.error(error);
     process.exit(1);
+}
+
+async function getAllBlogPosts() {
+    return contentFilePaths.map((filePath) => {
+        const source = fs.readFileSync(path.join(postsDirectory, filePath))
+        const {data} = matter(source)
+        const id = filePath.replace(/\.md$/, '')
+
+        return {
+            id,
+            data,
+        }
+    })
 }
 
 function transformPostsToSearchObjects(articles) {
@@ -28,23 +45,15 @@ function transformPostsToSearchObjects(articles) {
     });
 }
 
-// everything we did so far is here
-
 (async function () {
     try {
-        const articles = getSortedPostsData();
+        const articles = await getAllBlogPosts();
         const transformed = transformPostsToSearchObjects(articles);
-
-        // initialize the client with your environment variables
         const client = algoliasearch(
             process.env.NEXT_PUBLIC_ALGOLIA_APP_ID,
             process.env.ALGOLIA_SEARCH_ADMIN_KEY,
         );
-
-        // initialize the index with your index name
         const index = client.initIndex("mario.raval.li");
-
-        // add the data to the index
         const algoliaResponse = await index.saveObjects(transformed);
 
         console.log(

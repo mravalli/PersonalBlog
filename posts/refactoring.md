@@ -1,7 +1,7 @@
 ---
 title: 'Refactoring, quello buono'
 short: 'Refactoring'
-date: '2021-11-15'
+publishedAt: '2021-11-15'
 abstract: 'Cosa ritengo sia caratterizzante di un buon refactoring'
 image: '/images/refactoring.webp'
 tags: ['Agile', 'TDD', 'Integration Test', 'Developing']

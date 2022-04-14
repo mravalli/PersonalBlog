@@ -1,7 +1,7 @@
 ---
 title: 'Alfa Romeo: se la provi non cambi'
 short: 'Alfa Romeo: se la provi non cambi'
-date: '2018-11-29'
+publishedAt: '2018-11-29'
 image: '/images/Alfa-Romeo-Mito.webp'
 tags: ['AlfaRomeo', 'MiTo', 'Macchinine', 'Fuffa', 'Mentecatti', 'Realtà']
 ---

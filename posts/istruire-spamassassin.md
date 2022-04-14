@@ -1,7 +1,7 @@
 ---
 title: 'Istruire SpamAssassin'
 short: 'Istruire SpamAssassin'
-date: '2019-09-13'
+publishedAt: '2019-09-13'
 image: '/images/mail-boxes-filled-of-leaflets.webp'
 tags: ['Linux', 'SpamAssassin', 'sa-learn', 'apprendimento', 'training']
 ---

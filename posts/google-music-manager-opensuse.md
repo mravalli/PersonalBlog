@@ -1,7 +1,7 @@
 ---
 title: 'Google Music Manager & OpenSuSE'
 short: 'Google Music Manager & OpenSuSE'
-date: '2013-08-29'
+publishedAt: '2013-08-29'
 image: '/images/libri.webp'
 tags: ['Dipendenza', 'Google Music Manager', 'Linux', 'OpenSuSE', 'Pacchetti mancanti', 'qWebKit']
 ---

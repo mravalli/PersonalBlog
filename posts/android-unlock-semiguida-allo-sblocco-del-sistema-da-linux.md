@@ -1,7 +1,7 @@
 ---
 title: 'Android unlock - semiguida allo sblocco del sistema da linux'
 short: 'Android unlock - semiguida allo sblocco del sistema da linux'
-date: '2014-11-22'
+publishedAt: '2014-11-22'
 image: '/images/libri.webp'
 tags: ['adb', 'Android', 'Fastboot', 'Fuffa', 'Linux', 'Maguro', 'modding', 'root', 'unlock']
 ---

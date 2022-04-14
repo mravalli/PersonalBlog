@@ -38,7 +38,7 @@ export default function Post({ postData }) {
             <div className="px-12 pb-14">
               <div className="flex flex-wrap justify-center">
                 <article>
-                <div className="mt-7"><Date dateString={postData.date} /></div>
+                <div className="mt-7"><Date dateString={postData.publishedAt} /></div>
                   <h1 className="-mt-1">{postData.title}</h1>
                   <div className="whitespace-pre-wrap" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                 </article>

@@ -1,7 +1,7 @@
 ---
 title: 'Systemd & php-cgi'
 short: 'Systemd & php-cgi'
-date: '2012-02-15'
+publishedAt: '2012-02-15'
 image: '/images/libri.webp'
 tags: ['Linux', 'fastcgi', 'nginx', 'OpenSuSE', 'php-cgi', 'Systemd']
 ---

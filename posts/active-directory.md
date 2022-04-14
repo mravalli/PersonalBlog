@@ -1,7 +1,7 @@
 ---
 title: 'Active Directory'
 short: 'Active Directory'
-date: '2008-04-27'
+publishedAt: '2008-04-27'
 image: '/images/libri.webp'
 tags: ['Active Directory', 'Group Policy', 'DNS', 'Windows', 'Dominio', 'GPM', 'GPO', 'User']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Win! Win! Win!'
 short: 'Win! Win! Win!'
-date: '2018-12-11'
+publishedAt: '2018-12-11'
 image: '/images/winwinwin.webp'
 tags: ['Realtà', 'Volpi', 'Ricordi', 'Fuffa', 'Commercianti', 'Capitalismo', 'Dipendenza']
 ---

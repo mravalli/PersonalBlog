@@ -2,7 +2,7 @@
 title: 'Un po di storia sui Patterns'
 short: 'Cenni Storici'
 abstract: 'Un po` di storia: perché esistono e le critiche che gli vengono mosse'
-date: '2021-05-10'
+publishedAt: '2021-05-10'
 image: '/images/scrum-roles.webp'
 tags: ['Design Pattern', 'General Concept', 'Developing', 'Motivation', 'Structure', 'Software Design']
 ---

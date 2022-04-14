@@ -1,7 +1,7 @@
 ---
 title: 'Aggiornare OpenSUSE dalla versione 11.4 alla 12.1 (Desktop e Server)'
 short: 'Aggiornare OpenSUSE dalla versione 11.4 alla 12.1 (Desktop e Server)'
-date: '2012-01-30'
+publishedAt: '2012-01-30'
 image: '/images/libri.webp'
 tags: ['Repositories', 'Aggiornamento', 'Distribuzione', 'Asparagus', 'Celadon', 'Linux', 'OpenSuSE', 'update', 'upgrade', 'zypper']
 ---
@@ -29,7 +29,7 @@ nel mio caso il repositorie interessato è il terzo che risulta abilitato sia pe
 ~ # zypper mr -er 3
 
 dove diciamo a zypper di modificare il terzo repositorie (mr 3) abilitandolo per l’aggiornamento ed il refresh (-er).  
- Quindi effettuiamo l’update:
+ Quindi effettuiamo l’uppublishedAt:
 
 ~ # zypper ref ~ # zypper up
 

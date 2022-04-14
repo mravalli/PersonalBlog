@@ -1,7 +1,7 @@
 ---
 title: 'Proftpd e condivisione CIFS (Samba)'
 short: 'Proftpd e condivisione CIFS (Samba)'
-date: '2017-07-13'
+publishedAt: '2017-07-13'
 image: '/images/libri.webp'
 tags: ['Linux', 'ProFTPd', 'Samba', 'CIFS', 'Condivisione', 'Permission Denied', 'ChMod']
 ---

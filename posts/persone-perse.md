@@ -1,7 +1,7 @@
 ---
 title: 'Persone Perse'
 short: 'Persone Perse'
-date: '2018-03-29'
+publishedAt: '2018-03-29'
 image: '/images/libri.webp'
 tags: ['Amiga', 'Macchinine', 'Ricordi', 'Fuffa']
 ---

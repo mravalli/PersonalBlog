@@ -1,7 +1,7 @@
 ---
 title: 'NoiCompriamoAuto, ma solo se sei disperato'
 short: 'NoiCompriamoAuto, ma solo se sei disperato'
-date: '2018-05-09'
+publishedAt: '2018-05-09'
 image: '/images/libri.webp'
 tags: ['Credici', 'Disonesti', 'eCommerce', 'Fuffa', 'Furbi', 'Pollo', 'Pubblicità Ingannevole', 'Vendita al Ribasso', 'Volpi']
 ---

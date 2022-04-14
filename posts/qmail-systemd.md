@@ -1,7 +1,7 @@
 ---
 title: 'Qmail & systemd'
 short: 'Qmail & systemd'
-date: '2012-11-30'
+publishedAt: '2012-11-30'
 image: '/images/libri.webp'
 tags: ['Linux', 'Qmail', 'Systemd']
 ---

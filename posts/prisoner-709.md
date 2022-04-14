@@ -1,7 +1,7 @@
 ---
 title: 'Prisoner 709'
 short: 'Prisoner 709'
-date: '2017-09-27'
+publishedAt: '2017-09-27'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

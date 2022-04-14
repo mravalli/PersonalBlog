@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 import { faBriefcase, faMapMarker, faMusic } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Date from '../components/date'
 import Layout, { siteTitle } from '../components/layout'
 import { getLastPostData } from '../lib/posts'
 

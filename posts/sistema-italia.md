@@ -1,7 +1,7 @@
 ---
 title: 'Sistema Italia'
 short: 'Sistema Italia'
-date: '2017-09-27'
+publishedAt: '2017-09-27'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

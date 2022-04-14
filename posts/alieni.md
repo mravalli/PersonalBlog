@@ -1,7 +1,7 @@
 ---
 title: 'Alieni'
 short: 'Alieni'
-date: '2015-05-19'
+publishedAt: '2015-05-19'
 image: '/images/libri.webp'
 tags: ['Alieni', 'Anima', 'Felicità', 'Inquietudine', 'Intorno', 'Sazietà']
 ---

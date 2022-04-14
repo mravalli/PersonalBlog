@@ -1,7 +1,7 @@
 ---
 title: 'Error: 0x80070005 access denied when creating a new task'
 short: 'Error: 0x80070005 access denied when creating a new task'
-date: '2010-05-13'
+publishedAt: '2010-05-13'
 image: '/images/libri.webp'
 tags: ['Windows', 'Windows Server 2003', 'Tasks', 'Scheduling', 'Diritti', 'Permessi']
 ---

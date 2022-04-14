@@ -1,7 +1,7 @@
 ---
 title: 'Firma automatica per ogni post'
 short: 'Firma automatica per ogni post'
-date: '2013-08-28'
+publishedAt: '2013-08-28'
 image: '/images/libri.webp'
 tags: ['Fuffa', 'Wordpress']
 ---

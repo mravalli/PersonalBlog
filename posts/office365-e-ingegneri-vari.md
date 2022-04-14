@@ -1,7 +1,7 @@
 ---
 title: 'Alieni'
 short: 'Alieni'
-date: '2015-08-29'
+publishedAt: '2015-08-29'
 image: '/images/libri.webp'
 tags: ['Calcoli Fatti Male', 'Marchette', 'Office365', 'OpenSource', 'Sicurezza', 'Windows', 'Wired']
 ---

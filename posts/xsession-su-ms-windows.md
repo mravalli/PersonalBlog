@@ -1,7 +1,7 @@
 ---
 title: 'Xsession su MS Windows'
 short: 'Xsession su MS Windows'
-date: '2008-05-04'
+publishedAt: '2008-05-04'
 image: '/images/libri.webp'
 tags: ['Cygwin', 'Xdmcp', 'xMins', 'Windows', 'XServer']
 ---

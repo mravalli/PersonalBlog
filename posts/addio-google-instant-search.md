@@ -1,7 +1,7 @@
 ---
 title: 'Addio Google Instant Search, non ne sentiremo la mancanza'
 short: 'Addio Google Instant Search, non ne sentiremo la mancanza'
-date: '2017-08-01'
+publishedAt: '2017-08-01'
 image: '/images/libri.webp'
 tags: ['Fuffa', 'Google Instant', 'Novità', 'User Experience']
 ---

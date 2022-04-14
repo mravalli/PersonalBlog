@@ -1,7 +1,7 @@
 ---
 title: 'Tivoli Storage Manager Scheduler Client & Systemd'
 short: 'TSM Scheduler Client & Systemd'
-date: '2012-11-30'
+publishedAt: '2012-11-30'
 image: '/images/libri.webp'
 tags: ['Linux']
 ---

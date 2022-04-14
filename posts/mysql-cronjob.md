@@ -1,7 +1,7 @@
 ---
 title: 'MySQL & CronJob'
 short: 'MySQL & CronJob'
-date: '2017-03-06'
+publishedAt: '2017-03-06'
 image: '/images/libri.webp'
 tags: ['CPU Resource', 'CronJob', 'CronTab', 'Event', 'Event Scheduler', 'Linux', 'MySQL', 'Pianificazione', 'Schedulazione', 'Scheduling', 'Shell Script']
 ---

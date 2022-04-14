@@ -1,7 +1,7 @@
 ---
 title: 'Procmail & vDeliver'
 short: 'Procmail & vDeliver'
-date: '2008-07-24'
+publishedAt: '2008-07-24'
 image: '/images/libri.webp'
 tags: ['Procmail', 'Procmailrc', 'Qmail', 'SpamAssassin', 'vDeliver', 'vDeliver-PostDeliver', 'vDeliver-PreDeliver', 'vmailmgr']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Credibilità oleosa'
 short: 'Credibilità oleosa'
-date: '2013-10-08'
+publishedAt: '2013-10-08'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

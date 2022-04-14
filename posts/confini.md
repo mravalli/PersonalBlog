@@ -1,7 +1,7 @@
 ---
 title: 'Confini'
 short: 'Confini'
-date: '2020-03-23'
+publishedAt: '2020-03-23'
 image: '/images/libri.webp'
 tags: ['Parole', 'Importanza', 'Affini', 'Barriere']
 ---

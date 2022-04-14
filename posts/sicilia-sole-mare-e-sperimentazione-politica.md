@@ -1,7 +1,7 @@
 ---
 title: 'Sicilia: Sole, Mare e sperimentazione politica'
 short: 'Sicilia: Sole, Mare e sperimentazione politica'
-date: '2017-07-29'
+publishedAt: '2017-07-29'
 image: '/images/libri.webp'
 tags: ['Commercianti', 'Coop', 'Coop Alleanza 3.0', 'Coscienza', 'Dipendenti tutti a casa', 'Mare', 'Mentecatti', 'Partito Democratico', 'PD', 'Pensilina', 'Pisapia', 'Politica', 'Prodotti a Marchio', 'Raccomandati', 'Sinistra', 'Sinistro', 'Sole']
 ---

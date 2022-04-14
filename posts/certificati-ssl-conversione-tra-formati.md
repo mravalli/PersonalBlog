@@ -1,7 +1,7 @@
 ---
 title: 'Certificati SSL: Conversione tra formati'
 short: 'Certificati SSL: Conversione tra formati'
-date: '2012-02-01'
+publishedAt: '2012-02-01'
 image: '/images/libri.webp'
 tags: ['Certificati', 'Conversioni', 'Formati', 'Linux', 'openSSL', 'Sicurezza', 'Windows']
 ---

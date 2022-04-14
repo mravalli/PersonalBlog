@@ -1,7 +1,7 @@
 ---
 title: 'Serposcope, Docker & OpenSuSE'
 short: 'Serposcope, Docker & OpenSuSE'
-date: '2017-08-02'
+publishedAt: '2017-08-02'
 image: '/images/libri.webp'
 tags: ['Docker', 'java', 'jvm', 'Linux', 'OpenSuSE', 'Semplicità', 'Serposcope']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Caricare files sul server tramite AJAX, senza fronzoli e continuare a vivere sereni'
 short: 'Caricare files sul server tramite AJAX, senza fronzoli e continuare a vivere sereni'
-date: '2019-02-15'
+publishedAt: '2019-02-15'
 image: '/images/libri.webp'
 tags: ['Javascript', 'Ajax', 'XMLHttpRequest', 'Upload Files', 'Web Development']
 ---

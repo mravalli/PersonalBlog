@@ -1,7 +1,7 @@
 ---
 title: 'mr.Robot'
 short: 'mr.Robot'
-date: '2016-03-13'
+publishedAt: '2016-03-13'
 image: '/images/libri.webp'
 tags: ['Anonymous', 'Esercito Oscuro', 'Evil Corporation', 'Fine del Mondo', 'fSociety', 'Fuffa', 'Hacker', 'Lobby', 'Loggie Massoniche', 'mr.robot', 'Potenti', 'Realtà', 'Series', 'Sicurezza', 'Telefilm']
 ---

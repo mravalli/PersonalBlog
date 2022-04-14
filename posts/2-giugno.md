@@ -1,7 +1,7 @@
 ---
 title: '2 Giugno'
 short: '2 Giugno'
-date: '2017-06-02'
+publishedAt: '2017-06-02'
 image: '/images/libri.webp'
 tags: ['2 Giugno', 'Capitalismo', 'Colonialismo', 'Coscienza', 'IperCoop', 'Manuale', 'Repubblica', 'Sicilia']
 ---

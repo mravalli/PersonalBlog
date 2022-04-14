@@ -1,7 +1,7 @@
 ---
 title: 'Alphabet'
 short: 'Alphabet'
-date: '2017-07-13'
+publishedAt: '2017-07-13'
 image: '/images/libri.webp'
 tags: ['1984', 'Alphabet', 'Chrome', 'Fuffa', 'Gmail', 'Google', 'Sicurezza']
 ---

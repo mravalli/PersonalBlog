@@ -1,7 +1,7 @@
 ---
 title: 'Ci vuole una pazienza..'
 short: 'Ci vuole una pazienza..'
-date: '2013-07-15'
+publishedAt: '2013-07-15'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

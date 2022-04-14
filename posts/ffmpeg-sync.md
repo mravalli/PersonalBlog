@@ -1,7 +1,7 @@
 ---
 title: 'ffmpeg sync'
 short: 'ffmpeg sync'
-date: '2018-10-24'
+publishedAt: '2018-10-24'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

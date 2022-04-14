@@ -1,7 +1,7 @@
 ---
 title: 'Cifs'
 short: 'Cifs'
-date: '2008-12-03'
+publishedAt: '2008-12-03'
 image: '/images/libri.webp'
 tags: ['Linux']
 ---

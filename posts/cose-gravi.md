@@ -1,7 +1,7 @@
 ---
 title: 'Cose Gravi'
 short: 'Cose Gravi'
-date: '2008-09-17'
+publishedAt: '2008-09-17'
 image: '/images/libri.webp'
 tags: ['Apple', 'Fuffa', 'Ignorare', 'iPhone', 'Nascondere']
 ---

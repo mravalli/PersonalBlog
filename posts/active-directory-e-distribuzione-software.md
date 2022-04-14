@@ -1,7 +1,7 @@
 ---
 title: 'Active Directory e Distribuzione Software'
 short: 'Active Directory e Distribuzione Software'
-date: '2007-11-12'
+publishedAt: '2007-11-12'
 image: '/images/libri.webp'
 tags: ['Active Directory', 'Group Policy', 'Software Distribution', 'Windows Script Host', 'WSH']
 ---

@@ -5,11 +5,7 @@
 * @Last Modified time: 2021-11-14 15:43:56
 */
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
-import { faArrowRight, faBriefcase, faMapMarker, faUniversity } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Date from '../../components/date'
 import Layout, { siteTitle } from '../../components/layout'
 import Tags from '../../components/tags'
 import { getSortedPostsData } from '../../lib/posts'

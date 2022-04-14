@@ -1,7 +1,7 @@
 ---
 title: 'studiate, informatevi, non usate internet per leggere qualche blog e basta..'
 short: 'studiate, informatevi, non usate internet per leggere qualche blog e basta..'
-date: '2015-05-19'
+publishedAt: '2015-05-19'
 image: '/images/libri.webp'
 tags: ['1951', 'CEE', 'Comunità Unica Europea', 'Coscienza', 'Europa', 'Ignoranza', 'Morti', 'Politica', 'Storia']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Il Professionista'
 short: 'Il Professionista'
-date: '2016-04-11'
+publishedAt: '2016-04-11'
 image: '/images/libri.webp'
 tags: ['Fuffa']
 ---

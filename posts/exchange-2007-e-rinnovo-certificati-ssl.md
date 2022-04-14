@@ -1,7 +1,7 @@
 ---
 title: 'Exchange 2007 e rinnovo certificati SSL'
 short: 'Exchange 2007 e rinnovo certificati SSL'
-date: '2009-08-25'
+publishedAt: '2009-08-25'
 image: '/images/libri.webp'
 tags: ['Certificati', 'Exchange', 'openSSL', 'SSL', 'Windows']
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'XBMC Pvr-testing2 branch & XBMC Addons'
 short: 'XBMC Pvr-testing2 branch & XBMC Addons'
-date: '2010-07-10'
+publishedAt: '2010-07-10'
 image: '/images/libri.webp'
 tags: ['Linux', 'VDR', 'xbmc', 'addons', 'PVR']
 ---

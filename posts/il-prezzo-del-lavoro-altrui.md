@@ -1,7 +1,7 @@
 ---
 title: 'Il Prezzo del Lavoro Altrui'
 short: 'Il Prezzo del Lavoro Altrui'
-date: '2016-03-30'
+publishedAt: '2016-03-30'
 image: '/images/libri.webp'
 tags: ['Culo', 'Fuffa', 'Giudicare', 'Grasso', 'Grosso', 'Idiota', 'Incompetenza', 'Lavoro', 'Meccanico', 'Ozio', 'Ozioso', 'Prezzo', 'Soli', 'Tempo Libero']
 ---

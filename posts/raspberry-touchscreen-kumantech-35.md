@@ -1,7 +1,7 @@
 ---
 title: 'Raspberry & TouchScreen KumanTech 35'
 short: 'Raspberry & TouchScreen KumanTech 35'
-date: '2017-06-06'
+publishedAt: '2017-06-06'
 image: '/images/libri.webp'
 tags: ['Chromium', 'GPIO17', 'HyperCube', 'Kernel', 'Kuman', 'Linux', 'OctoPrint', 'Raspberry Pi', 'Raspbian', 'RPi', 'SC06-3.6TFT-UK', 'Touchscreen', 'TouchUI']
 ---

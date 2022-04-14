@@ -1,6 +1,6 @@
 ---
 title: 'Chi Sono'
-date: '2010-11-13'
+publishedAt: '2010-11-13'
 ---
 
 Mi occupo di informatica da prima che entrassi in possesso di un computer, dato che non potevo permettermelo. Sono uno di quelli la cui madre quando volle comprargli l’enciclopedia, alla domanda se esistesse una versione “digitale”, il negoziante rispose stizzito “no signora, queste cose non esistono, si figuri”. Uno di quelli che ha formattato il proprio windows 98 dopo un solo mese che aveva il pc a casa ed è passato a linux da li a 6 mesi commettendo l’unico errore di installarsi una suse 5 in tedesco.

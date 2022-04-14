@@ -49,11 +49,11 @@ export const getServerSideProps = ({ res }) => {
         })
         .join("")}
        ${posts
-         .map(({id, date}) => {
+         .map(({id, publishedAt}) => {
             return `
               <url>
                 <loc>${baseUrl}/posts/${id}</loc>
-                <lastmod>${new Date(date).toISOString()}</lastmod>
+                <lastmod>${new Date(publishedAt).toISOString()}</lastmod>
                 <changefreq>yearly</changefreq>
                 <priority>1.0</priority>
               </url>

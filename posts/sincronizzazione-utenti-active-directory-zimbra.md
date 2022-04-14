@@ -1,7 +1,7 @@
 ---
 title: 'Sincronizzazione Utenti tra Active Directory e Zimbra'
 short: 'Sincronizzazione Utenti tra AD - Zimbra'
-date: '2008-06-24'
+publishedAt: '2008-06-24'
 image: '/images/libri.webp'
 tags: ['Active Directoryh', 'LDAP', 'Sincronizzazione', 'Utenti', 'Zimbra']
 ---

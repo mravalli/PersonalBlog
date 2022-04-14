@@ -1,7 +1,7 @@
 ---
 title: 'Carlo'
 short: 'Carlo'
-date: '2018-11-24'
+publishedAt: '2018-11-24'
 image: '/images/libri.webp'
 tags: ['1984']
 ---

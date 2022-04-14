@@ -1,7 +1,7 @@
 ---
 title: 'Zimbra, lentezza, VirtualIron'
 short: 'Zimbra, lentezza, VirtualIron'
-date: '2008-12-05'
+publishedAt: '2008-12-05'
 image: '/images/libri.webp'
 tags: ['CentOS', 'Disco', 'Disk', 'Lentezza', 'Slow', 'VirtualIron', 'Zimbra']
 ---

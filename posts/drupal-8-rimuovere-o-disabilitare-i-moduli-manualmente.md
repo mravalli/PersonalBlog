@@ -1,7 +1,7 @@
 ---
 title: 'Drupal 8: rimuovere o disabilitare i moduli manualmente'
 short: 'Drupal 8: rimuovere o disabilitare i moduli manualmente'
-date: '2019-11-10'
+publishedAt: '2019-11-10'
 image: '/images/libri.webp'
 tags: ['Drupal', 'Estensioni', 'Aggiornamento']
 ---

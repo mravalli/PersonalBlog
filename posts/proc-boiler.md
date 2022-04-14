@@ -1,7 +1,7 @@
 ---
 title: 'Proc & Boiler'
 short: 'Proc & Boiler'
-date: '2011-03-11'
+publishedAt: '2011-03-11'
 image: '/images/libri.webp'
 tags: ['Bolier', 'Fuffa', 'Processori']
 ---

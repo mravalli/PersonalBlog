@@ -1,7 +1,7 @@
 ---
 title: 'FreeBSD'
 short: 'FreeBSD'
-date: '2010-04-15'
+publishedAt: '2010-04-15'
 image: '/images/libri.webp'
 tags: ['FreeBSD']
 ---

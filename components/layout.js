@@ -13,6 +13,7 @@ import prism from 'prismjs'
 import { faFacebookSquare, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faBars, faBook, faHome, faIdBadge } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Search from "./Search";
 
 const name = 'Mario Ravalli'
 export const siteTitle = 'Miniminaglie qua e là'
@@ -57,8 +58,13 @@ export default function Layout({children, home}) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               
               <li className="flex items-center">
+
+                  <Search />
+
+              </li>
+              <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
-                  href="/">
+                   href="/">
                   <FontAwesomeIcon icon={faHome} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-9 w-9" />
                   <span className="lg:hidden inline-block ml-2">Home</span>
                 </a>
@@ -132,7 +138,7 @@ export default function Layout({children, home}) {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2021 Mario Ravalli
+              Copyright © 2022 Mario Ravalli
             </div>
           </div>
         </div>

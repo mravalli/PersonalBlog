@@ -15,7 +15,10 @@
 	a {
 		@apply font-semibold text-purple-800;
 	}
-  code[class*="language-"] {
-    padding-left: 0;
-  }
+    code[class*="language-"] {
+        padding-left: 0;
+    }
+	.search-box {
+		padding: 12vh;
+	}
 }

@@ -31,6 +31,7 @@ class DeferNextScript extends NextScript {
       devOnlyCacheBusterQueryString,
     } = this.context;
 
+    // @ts-ignore
     return dedupe(dynamicImports).map((bundle) => {
       if (!bundle.file.endsWith('.js') || files.allFiles.includes(bundle.file))
         return null;

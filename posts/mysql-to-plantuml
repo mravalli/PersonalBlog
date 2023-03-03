@@ -1,0 +1,8 @@
+---
+title: 'Realizzare un diagramma UML di un database con zero sforzo'
+short: 'Da database a UML in tempo zero'
+abstract: 'Realizzare il diagramma UML del database, soprattutto se con molte tabelle e numerosi campi, è un lavoro tedioso. Con l'uso degli strumenti giusti, lo si risolve in poco tempo'
+publishedAt: '2023-03-03'
+image: '/images/refactoring.webp'
+tags: ['UML', 'SQL', 'Motivation', 'Structure', 'Database Design']
+---

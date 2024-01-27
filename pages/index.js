@@ -35,11 +35,11 @@ export default function Home({ lastPost }) {
                   </div>
                 </div>
                 <div className="w-full lg:w-4/12 px-4 lg:order-1 flex justify-center">
-                  <div className="hidden xl:block relative">
+                  <div className="hidden xl:block relative -mt-12">
                     <img alt="Mario Ravalli" src="/images/me.webp" style={{maxWidth: 150 + 'px'}}
                       className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-12 -ml-4 lg:ml-36" />
                   </div>
-                  <div className="text-center mt-12">
+                  <div className="text-center mt-20">
                     <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mt-12"> Mario Ravalli </h3>
                     <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
                       <FontAwesomeIcon icon={faMapMarker} className="inline mr-2 text-lg text-gray-500 h-4 w-4"/>

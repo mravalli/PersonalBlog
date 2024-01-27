@@ -10,12 +10,11 @@ import Link from 'next/link'
 
 import { useEffect, useState } from 'react'
 import prism from 'prismjs'
-import { faFacebookSquare, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faBook, faHome, faIdBadge } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faBars, faBook, faHome } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Search from "./Search";
 
-const name = 'Mario Ravalli'
 export const siteTitle = 'Miniminaglie qua e là'
 
 export default function Layout({children, home}) {
@@ -43,7 +42,7 @@ export default function Layout({children, home}) {
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative px-4 flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
-              <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white text-3xl">
+              <a className="font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap text-white text-3xl">
                 <Image src="/logo.webp" alt="Raval.li" width={48} height={48} />
               </a>
             </Link>
@@ -77,22 +76,22 @@ export default function Layout({children, home}) {
                 </a>
               </li>
               <li className="flex items-center">
-                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
                   target="_blank" href="https://www.linkedin.com/in/marioravalli/">
                   <FontAwesomeIcon icon={faLinkedin} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Linkedin</span>
                 </a>
               </li>
               <li className="flex items-center">
-                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
                   target="_blank" href="https://twitter.com/babau_mr">
                   <FontAwesomeIcon icon={faTwitter} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
                 </a>
               </li>
               <li className="flex items-center">
-                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  target="_blank" href="https://github.com/mravalli">
+                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+                  target="_blank" href="https://github.com/mrkrash">
                   <FontAwesomeIcon icon={faGithub} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Star</span>
                 </a>

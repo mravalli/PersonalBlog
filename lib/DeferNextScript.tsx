@@ -28,7 +28,6 @@ class DeferNextScript extends NextScript {
       dynamicImports,
       assetPrefix,
       isDevelopment,
-      devOnlyCacheBusterQueryString,
     } = this.context;
 
     // @ts-ignore
@@ -42,8 +41,9 @@ class DeferNextScript extends NextScript {
           key={bundle.file}
           src={`${assetPrefix}/_next/${encodeURI(
             bundle.file
-          )}${devOnlyCacheBusterQueryString}`}
+          )}`}
           nonce={this.props.nonce}
+          // @ts-ignore
           crossOrigin={
             this.props.crossOrigin || process.env.__NEXT_CROSS_ORIGIN
           }
@@ -56,7 +56,6 @@ class DeferNextScript extends NextScript {
       assetPrefix,
       buildManifest,
       isDevelopment,
-      devOnlyCacheBusterQueryString,
     } = this.context;
 
     const normalScripts = files.allFiles.filter((file) => file.endsWith('.js'));
@@ -70,9 +69,10 @@ class DeferNextScript extends NextScript {
           key={file}
           src={`${assetPrefix}/_next/${encodeURI(
             file
-          )}${devOnlyCacheBusterQueryString}`}
+          )}`}
           nonce={this.props.nonce}
           defer={!isDevelopment}
+          // @ts-ignore
           crossOrigin={
             this.props.crossOrigin || process.env.__NEXT_CROSS_ORIGIN
           }

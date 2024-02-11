@@ -82,13 +82,6 @@ export default function Layout({children, home}) {
               </li>
               <li className="flex items-center">
                 <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
-                  target="_blank" href="https://twitter.com/babau_mr">
-                  <FontAwesomeIcon icon={faTwitter} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
-                  <span className="lg:hidden inline-block ml-2">Tweet</span>
-                </a>
-              </li>
-              <li className="flex items-center">
-                <a className="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
                   target="_blank" href="https://github.com/mrkrash">
                   <FontAwesomeIcon icon={faGithub} className="lg:text-gray-300 text-gray-500 text-lg leading-lg h-8 w-8" />
                   <span className="lg:hidden inline-block ml-2">Star</span>
